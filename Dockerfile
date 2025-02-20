@@ -1,12 +1,12 @@
-FROM alpine:3.11
+FROM alpine:3.21
 
 ARG VERSION
 
 LABEL \
-    "name"="tooldockers/iops" \
-    "maintainer"="tool-dockers" \
+    "name"="comet-ml/iops" \
+    "maintainer"="comet-ml" \
     "version"="${VERSION}" \
-    "release"="3.16" \
+    "release"="3.38" \
     "vendor"="tool-dockers" \
     "summary"="I/O performance statistics" \
     "description"="Alpine-based Docker containing fio, and ioping, a filesystem benchmarking tool."
